@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="jwSuite" verbose="1" >
+  <parameter name="username" value="myuser"/>
+  <parameter name="password" value="mypass"/>
+  <parameter name="webconsoleStartupURL" value="http://www.google.com"/>
+  
+  <test name="jwCase">
+    <classes>
+      <class name="weden.jason.qa.someProduct.NewTest"/>
+    </classes>
+  </test>
+  
+  <test name="Web UI Tests" preserve-order="true" enabled="false">
+    <classes>
+       <class name="weden.jason.qa.webUITests.WebUITests">
+       		<methods>
+		        <include name="login" />
+		        <include name="doSomething" />
+     		</methods>
+       </class>
+    </classes>
+  </test>
+</suite>

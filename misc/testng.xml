@@ -1,9 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-  
-<suite name="jwSuite" verbose="1" >
-  <test name="jwCase">
-    <classes>
-      <class name="weden.jason.qa.someProduct.NewTest"/>
-    </classes>
-  </test>
-</suite>

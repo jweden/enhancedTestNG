@@ -59,7 +59,7 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				    <failIfNoTests>false</failIfNoTests>					
 					<childDelegation>false</childDelegation>
@@ -112,6 +112,21 @@
           <artifactId>gmaven-mojo</artifactId>
           <version>${gmaven-version}</version>
        </dependency>
+       <dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-firefox-driver</artifactId>
+			<version>2.0b3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-ie-driver</artifactId>
+			<version>2.0b3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-support</artifactId>
+			<version>2.0b3</version>
+		</dependency>
 	</dependencies>
 </project>
 
