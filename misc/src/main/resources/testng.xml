@@ -3,7 +3,7 @@
 <suite name="jwSuite" verbose="1" >
   <parameter name="username" value="myuser"/>
   <parameter name="password" value="mypass"/>
-  <parameter name="webconsoleStartupURL" value="http://www.google.com"/>
+  <parameter name="webconsoleStartupURL" value="http://www.bing.com"/>
   
   <test name="jwCase" enabled="true">
     <classes>

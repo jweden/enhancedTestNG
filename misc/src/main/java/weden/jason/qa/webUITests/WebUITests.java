@@ -19,7 +19,7 @@ public class WebUITests extends TestBase {
     @Test(description = "Login to web console", groups = "initialize")
     @Parameters({"username", "password"})
     public void login(final String username, final String password) {
-        LOG.info("Do something with selenium");
+        sendScript("return frames.length");
     }
 
     @Test(description = "Makes sure can do something", groups = "initialize")
