@@ -37,7 +37,7 @@ public class TestBase {
     }
 
     public Object sendScript(final String js) {
-        LOG.debug("The javascript to be executed is: " + js);
+        LOG.info("The javascript to be executed is: " + js);
         final Object obj = ((JavascriptExecutor) getWebDriver()).executeScript(js, new Object[0]);
         LOG.info("Return value of javascript call is:" + NEW_LINE + getScriptReturnValue(obj));
         return obj;
