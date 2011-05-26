@@ -5,7 +5,7 @@
   <parameter name="password" value="mypass"/>
   <parameter name="webconsoleStartupURL" value="http://www.google.com"/>
   
-  <test name="jwCase">
+  <test name="jwCase" enabled="true">
     <classes>
       <class name="weden.jason.qa.someProduct.NewTest"/>
     </classes>
