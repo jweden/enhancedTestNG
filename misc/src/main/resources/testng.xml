@@ -16,7 +16,7 @@
        <class name="weden.jason.qa.webUITests.WebUITests">
        		<methods>
 		        <include name="login" />
-		        <include name="doSomething" />
+		        <include name="getNumberofFrames" />
      		</methods>
        </class>
     </classes>
